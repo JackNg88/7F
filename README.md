@@ -39,11 +39,11 @@ git clone https://github.com/YourUsername/JMMG-NES_project.git
 ```
 2.	Install required packages:
 
-# R example
+### R example
 ```bash
 install.packages(c("Seurat", "ggplot2", "dplyr", "Monocle3"))
 ```
-# Python example
+### Python example
 ```bash
 pip install pandas matplotlib scanpy anndata
 ```
@@ -53,7 +53,7 @@ Rscript scripts/scRNAseq_analysis.R
 ```
 ⸻
 
-Key Computational Analyses
+## Key Computational Analyses
 	•	Single-cell RNA-seq: preprocessing, clustering, marker identification, pseudotime and trajectory inference
 	•	Chromatin accessibility (ATAC-seq): peak calling, annotation, and integration with transcriptional data
 	•	Gene regulatory network reconstruction: identifying factor-driven transcriptional programs
@@ -63,7 +63,7 @@ These analyses were designed to reproduce and extend the findings of the JMMG-NE
 
 ⸻
 
-Reference
+## Reference
 
 Bo Wang, Linlin Wu, Dongwei Li, et al. Induction of Pluripotent Stem Cells from Mouse Embryonic Fibroblasts by Jdp2-Jhdm1b-Mkk6-Glis1-Nanog-Essrb-Sall4.
 Cell Rep. 2019 Jun 18;27(12):3473-3485.e5.
@@ -72,14 +72,14 @@ PMID: 31216469
 
 ⸻
 
-License
+## License
 
 This repository is licensed under the MIT License.
 Scripts and figures can be freely used for research purposes with proper citation of this project and the original publication.
 
 ---
 
-Contact
+## Contact
 
 If you have any questions, issues, or suggestions regarding this repository,  
 please feel free to contact:
