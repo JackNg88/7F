@@ -17,7 +17,7 @@ Our analyses focus on single-cell and bulk RNA-seq, ATAC-seq, and integrative mu
 ---
 
 ## Repository Structure
-'''
+
 JMMG-NES_project/
 ├── README.md                  # Project description
 ├── figures/                   # Generated figures for publication and analysis
@@ -28,7 +28,7 @@ JMMG-NES_project/
 ├── data/                      # Raw and processed data (optional)
 ├── results/                   # Outputs and intermediate files
 └── docs/                      # Additional notes or documentation
-'''
+
 ---
 
 ## Getting Started
