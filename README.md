@@ -1,6 +1,6 @@
 # JMMG-NES Reprogramming: Induction of Pluripotent Stem Cells from Mouse Embryonic Fibroblasts (MEFs)
 
-This repository contains **figures, scripts, and data analyses** related to our study on the induction of pluripotent stem cells (iPSCs) from mouse embryonic fibroblasts using the JMMG-NES combination: **Jdp2, Jhdm1b, Mkk6, Glis1, Nanog, Essrb, Sall4**.
+This repository contains **figures, scripts, and data analyses** related to our study on the induction of pluripotent stem cells (iPSCs) from mouse embryonic fibroblasts using the JMMG-NES combination: **J**dp2, Jhd**m**1b, **M**kk6, **G**lis1, **N**anog, **E**ssrb, **S**all4.
 
 ---
 
@@ -36,17 +36,21 @@ JMMG-NES_project/
 1. Clone this repository:
 ```bash
 git clone https://github.com/YourUsername/JMMG-NES_project.git
-
-	2.	Install required packages:
+```
+2.	Install required packages:
 
 # R example
+```bash
 install.packages(c("Seurat", "ggplot2", "dplyr", "Monocle3"))
-
+```
 # Python example
+```bash
 pip install pandas matplotlib scanpy anndata
-
-	3.	Run scripts in the scripts/ folder to reproduce figures and analyses.
-
+```
+3.	Run scripts in the scripts/ folder to reproduce figures and analyses.
+```bash
+Rscript scripts/scRNAseq_analysis.R
+```
 ⸻
 
 Key Computational Analyses
