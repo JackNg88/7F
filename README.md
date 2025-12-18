@@ -74,3 +74,13 @@ This repository is licensed under the MIT License.
 Scripts and figures can be freely used for research purposes with proper citation of this project and the original publication.
 
 ---
+
+Contact
+
+If you have any questions, issues, or suggestions regarding this repository,  
+please feel free to contact:
+
+**Jian Wu**  
+📧 Email: Jian.Wu@mpi-bn.mpg.de
+
+---
