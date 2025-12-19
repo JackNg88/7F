@@ -22,9 +22,8 @@ JMMG-NES_project/
 ├── README.md                  # Project description
 ├── figures/                   # Generated figures for publication and analysis
 ├── scripts/                   # Analysis scripts (R, Python)
-│   ├── scRNAseq_analysis.R
-│   ├── trajectory_inference.R
-│   └── figure_generation.py
+│   ├── go_gene_map.py
+│   ├── match_heatmap.py
 ├── data/                      # Raw and processed data (optional)
 ├── results/                   # Outputs and intermediate files
 └── docs/                      # Additional notes or documentation
