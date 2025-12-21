@@ -42,13 +42,13 @@ git clone https://github.com/YourUsername/JMMG-NES_project.git
 
 ### 2.	Install required packages:
 
-## R example
+#### R example
 
 ```bash
 install.packages(c("Seurat", "ggplot2", "dplyr", "Monocle3"))
 ```
 
-## Python example
+#### Python example
 
 ```bash
 pip install pandas matplotlib scanpy anndata
