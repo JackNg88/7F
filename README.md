@@ -54,10 +54,10 @@ Rscript scripts/scRNAseq_analysis.R
 ---
 
 ## Key Computational Analyses
-	•	Single-cell RNA-seq: preprocessing, clustering, marker identification, pseudotime and trajectory inference
-	•	Chromatin accessibility (ATAC-seq): peak calling, annotation, and integration with transcriptional data
-	•	Gene regulatory network reconstruction: identifying factor-driven transcriptional programs
-	•	Figure generation: high-quality figures for publication and supplementary materials
+- Single-cell RNA-seq: preprocessing, clustering, marker identification, pseudotime and trajectory inference
+- Chromatin accessibility (ATAC-seq): peak calling, annotation, and integration with transcriptional data
+- Gene regulatory network reconstruction: identifying factor-driven transcriptional programs
+- Figure generation: high-quality figures for publication and supplementary materials
 
 These analyses were designed to reproduce and extend the findings of the JMMG-NES-mediated iPSC induction study, providing computational pipelines for transcriptomic and epigenetic data.
 
