@@ -36,6 +36,7 @@ JMMG-NES_project/
 ```bash
 git clone https://github.com/YourUsername/JMMG-NES_project.git
 ```
+
 2.	Install required packages:
 
 ### R example
@@ -50,7 +51,7 @@ pip install pandas matplotlib scanpy anndata
 ```bash
 Rscript scripts/scRNAseq_analysis.R
 ```
-⸻
+---
 
 ## Key Computational Analyses
 	•	Single-cell RNA-seq: preprocessing, clustering, marker identification, pseudotime and trajectory inference
@@ -60,14 +61,15 @@ Rscript scripts/scRNAseq_analysis.R
 
 These analyses were designed to reproduce and extend the findings of the JMMG-NES-mediated iPSC induction study, providing computational pipelines for transcriptomic and epigenetic data.
 
-⸻
+---
 
 ## Reference
 
 Bo Wang, Linlin Wu, Dongwei Li, et al. Induction of Pluripotent Stem Cells from Mouse Embryonic Fibroblasts by Jdp2-Jhdm1b-Mkk6-Glis1-Nanog-Essrb-Sall4.
 Cell Rep. 2019 Jun 18;27(12):3473-3485.e5.
 DOI: [10.1016/j.celrep.2019.05.068](https://doi.org/10.1016/j.celrep.2019.05.068)
-⸻
+
+---
 
 ## License
 
