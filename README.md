@@ -17,6 +17,7 @@ Our analyses focus on single-cell and bulk RNA-seq, ATAC-seq, and integrative mu
 ---
 
 ## Repository Structure
+
 ```text
 JMMG-NES_project/
 ├── README.md                  # Project description
@@ -28,48 +29,57 @@ JMMG-NES_project/
 ├── results/                   # Outputs and intermediate files
 └── docs/                      # Additional notes or documentation
 ```
+
 ---
 
 ## Getting Started
 
-1. Clone this repository:
+### 1. Clone this repository:
+
 ```bash
 git clone https://github.com/YourUsername/JMMG-NES_project.git
 ```
-2.	Install required packages:
 
-### R example
+### 2.	Install required packages:
+
+#### R example
+
 ```bash
 install.packages(c("Seurat", "ggplot2", "dplyr", "Monocle3"))
 ```
-### Python example
+
+#### Python example
+
 ```bash
 pip install pandas matplotlib scanpy anndata
 ```
-3.	Run scripts in the scripts/ folder to reproduce figures and analyses.
+
+### 3.	Run scripts in the scripts/ folder to reproduce figures and analyses.
+
 ```bash
 Rscript scripts/scRNAseq_analysis.R
 ```
-⸻
+
+---
 
 ## Key Computational Analyses
-	•	Single-cell RNA-seq: preprocessing, clustering, marker identification, pseudotime and trajectory inference
-	•	Chromatin accessibility (ATAC-seq): peak calling, annotation, and integration with transcriptional data
-	•	Gene regulatory network reconstruction: identifying factor-driven transcriptional programs
-	•	Figure generation: high-quality figures for publication and supplementary materials
+
+- Single-cell RNA-seq: preprocessing, clustering, marker identification, pseudotime and trajectory inference
+- Chromatin accessibility (ATAC-seq): peak calling, annotation, and integration with transcriptional data
+- Gene regulatory network reconstruction: identifying factor-driven transcriptional programs
+- Figure generation: high-quality figures for publication and supplementary materials
 
 These analyses were designed to reproduce and extend the findings of the JMMG-NES-mediated iPSC induction study, providing computational pipelines for transcriptomic and epigenetic data.
 
-⸻
+---
 
 ## Reference
 
 Bo Wang, Linlin Wu, Dongwei Li, et al. Induction of Pluripotent Stem Cells from Mouse Embryonic Fibroblasts by Jdp2-Jhdm1b-Mkk6-Glis1-Nanog-Essrb-Sall4.
 Cell Rep. 2019 Jun 18;27(12):3473-3485.e5.
-DOI: 10.1016/j.celrep.2019.05.068￼
-PMID: 31216469
+DOI: [10.1016/j.celrep.2019.05.068](https://doi.org/10.1016/j.celrep.2019.05.068)
 
-⸻
+---
 
 ## License
 
