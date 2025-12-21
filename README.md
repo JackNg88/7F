@@ -66,9 +66,7 @@ These analyses were designed to reproduce and extend the findings of the JMMG-NE
 
 Bo Wang, Linlin Wu, Dongwei Li, et al. Induction of Pluripotent Stem Cells from Mouse Embryonic Fibroblasts by Jdp2-Jhdm1b-Mkk6-Glis1-Nanog-Essrb-Sall4.
 Cell Rep. 2019 Jun 18;27(12):3473-3485.e5.
-DOI: 10.1016/j.celrep.2019.05.068￼
-PMID: 31216469
-
+DOI: [10.1016/j.celrep.2019.05.068](https://doi.org/10.1016/j.celrep.2019.05.068)
 ⸻
 
 ## License
