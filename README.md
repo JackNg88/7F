@@ -17,6 +17,7 @@ Our analyses focus on single-cell and bulk RNA-seq, ATAC-seq, and integrative mu
 ---
 
 ## Repository Structure
+
 ```text
 JMMG-NES_project/
 ├── README.md                  # Project description
@@ -28,32 +29,41 @@ JMMG-NES_project/
 ├── results/                   # Outputs and intermediate files
 └── docs/                      # Additional notes or documentation
 ```
+
 ---
 
 ## Getting Started
 
-1. Clone this repository:
+### 1. Clone this repository:
+
 ```bash
 git clone https://github.com/YourUsername/JMMG-NES_project.git
 ```
 
-2.	Install required packages:
+### 2.	Install required packages:
 
-### R example
+## R example
+
 ```bash
 install.packages(c("Seurat", "ggplot2", "dplyr", "Monocle3"))
 ```
-### Python example
+
+## Python example
+
 ```bash
 pip install pandas matplotlib scanpy anndata
 ```
-3.	Run scripts in the scripts/ folder to reproduce figures and analyses.
+
+### 3.	Run scripts in the scripts/ folder to reproduce figures and analyses.
+
 ```bash
 Rscript scripts/scRNAseq_analysis.R
 ```
+
 ---
 
 ## Key Computational Analyses
+
 - Single-cell RNA-seq: preprocessing, clustering, marker identification, pseudotime and trajectory inference
 - Chromatin accessibility (ATAC-seq): peak calling, annotation, and integration with transcriptional data
 - Gene regulatory network reconstruction: identifying factor-driven transcriptional programs
